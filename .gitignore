@@ -1,0 +1,4 @@
+node_modules/
+functions/lib/
+functions/output/
+.psc-package
