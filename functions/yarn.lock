@@ -4239,6 +4239,10 @@ punycode@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.0.tgz#5f863edc89b96db09074bad7947bf09056ca4e7d"
 
+purescript-psa@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/purescript-psa/-/purescript-psa-0.5.1.tgz#2e435eef22bd2f57eba182cbff120022ca0f265f"
+
 purs-loader@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/purs-loader/-/purs-loader-3.1.2.tgz#f93a4fcda9b864543a25c4645dda2b88a819835d"

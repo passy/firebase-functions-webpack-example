@@ -17,14 +17,15 @@
   "devDependencies": {
     "@types/jest": "^22.0.0",
     "jest": "^22.0.4",
+    "psc-package": "^0.2.5",
+    "purescript-psa": "^0.5.1",
     "purs-loader": "^3.1.2",
     "ts-jest": "^22.0.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",
     "typescript": "^2.5.3",
     "webpack": "^3.10.0",
-    "webpack-node-externals": "^1.6.0",
-    "psc-package": "^0.2.5"
+    "webpack-node-externals": "^1.6.0"
   },
   "private": true,
   "jest": {
