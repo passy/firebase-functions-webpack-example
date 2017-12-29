@@ -1,4 +1,5 @@
 # Firebase Cloud Functions + TypeScript + PureScript + Webpack
+[![Build Status](https://travis-ci.org/passy/firebase-functions-webpack-example.svg?branch=master)](https://travis-ci.org/passy/firebase-functions-webpack-example)
 
 A sample configuration showing how to use PureScript in Firebase Cloud
 Functions, called from TypeScript. Why would you do that? Well, there are a lot
