@@ -5,6 +5,7 @@
     "serve": "npm run build && firebase serve --only functions",
     "shell": "npm run build && firebase experimental:functions:shell",
     "start": "npm run shell",
+    "test": "jest",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
@@ -14,12 +15,29 @@
     "firebase-functions": "^0.7.1"
   },
   "devDependencies": {
+    "@types/jest": "^22.0.0",
+    "jest": "^22.0.4",
     "purs-loader": "^3.1.2",
+    "ts-jest": "^22.0.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",
     "typescript": "^2.5.3",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^1.6.0"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
 }
