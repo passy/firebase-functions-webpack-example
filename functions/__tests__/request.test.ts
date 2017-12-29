@@ -8,6 +8,5 @@ it('sends a response', () => {
     }
   };
 
-  console.log(triggers);
   triggers.helloWorld(req, res);
 });
