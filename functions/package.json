@@ -5,7 +5,7 @@
     "serve": "npm run build && firebase serve --only functions",
     "shell": "npm run build && firebase experimental:functions:shell",
     "start": "npm run shell",
-    "test": "jest",
+    "test": "npm run build && jest",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
