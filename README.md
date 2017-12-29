@@ -22,7 +22,7 @@ somewhat smaller amount for the PureScript deps via `psc-package`.
 
 ```
 cd functions
-npm i
+yarn
 psc-package build
 ```
 
@@ -44,8 +44,9 @@ Hello from Purescript!
 Webpack is configured and can be used from within `functions/`:
 
 ```
-npm install
-npx webpack -w
+yarn
+yarn run webpack -w
+yarn test
 ```
 
 ## License
