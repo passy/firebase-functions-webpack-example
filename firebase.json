@@ -1,5 +1,14 @@
 {
   "functions": {
-    "predeploy": "npm --prefix functions run build"
+    "predeploy": "npm --prefix functions run build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/bower_modules/**",
+      "**/output/**",
+      "**/src/**",
+      "**/__tests__/**"
+    ]
   }
 }
